@@ -63,7 +63,7 @@
       <section>
         <h1 class='heading'><b>Menu</b></h1>
         <br>
-        <h2 class='sub-heading'>Mains</h2>
+        <h2 class='sub-heading' id='menu'>Mains</h2>
         <article>
           <h3 class='menu-item'>Our Signature Burger ($19.95)</h3>
           <img class='image' src='https://media.istockphoto.com/id/1148049212/photo/a-burger-with-french-fries-on-the-side-and-a-craft-beer.jpg?s=612x612&w=0&k=20&c=2Vn3U4C4zQ3TfduHHm9lHkNtP0uxEb4LaQeL0Hod19A=' alt='Signature Burger'>
@@ -115,7 +115,7 @@
       <hr>
       <br>
       <section>
-        <h1 class='heading'>Place Your Order</h1>
+        <h1 class='heading' id='order-form'>Place Your Order</h1>
         <br>
         <h2 class='sub-heading'>Mains</h2>
         <h3><i>Each main comes with a side of your choice apart from fish and chips.<br>This side can be ordered in the sides section.</i></h3>
@@ -126,20 +126,15 @@
           <label><b>Our Fish and Chips:</b> <input type='number' min=0 max=10><br></label>
           <label><b>Our Spaghetti Bolognese:</b> <input type='number' min=0 max=10><br></label>
           <label><b>Our Baby Back Ribs:</b> <input type='number' min=0 max=10><br></label>
-        </form>
-        <br><br>
-        <h2 class='sub-heading'>Sides</h2>
-        <h3><i>Each side is valid to choose with a main (excl. fish and chips). Any extra sides withh be charged.</i></h3>
-        <br>
-        <form action='post' method='get'>
+          <br><br>
+          <h2 class='sub-heading'>Sides</h2>
+          <h3><i>Each side is valid to choose with a main (excl. fish and chips). Any extra sides withh be charged.</i></h3>
+          <br>
           <label><b>Chunky Chips:</b> <input type='number' min=0 max=10><br></label>
           <label><b>Shoestring Fries:</b> <input type='number' min=0 max=10><br></label>
           <label><b>Onion Rings:</b> <input type='number' min=0 max=10><br></label>
           <label><b>Mash Potato:</b> <input type='number' min=0 max=10><br></label>
           <label><b>Garlic Potatoes:</b> <input type='number' min=0 max=10><br></label>
-        </form>
-        <br>
-        <form action='post' method='get'>
           <h2 class='sub-heading'>Extra Info</h2>
           <h3><i>For any special requests or allergies, please tell us in the box below</i></h3>
           <textarea id='extra-info' rows=7 cols=42 placeholder='Type Here...'></textarea>
